@@ -8,12 +8,13 @@ node_js:
 git:
   depth: 3
 script:
-  - yarm build
+  - yarn build
 deploy:
   provider: pages
   skip-cleanup: true
   keep-history: true
   github-token: $GITHUB_TOKEN
+  #f97e7e131bb52551a53970026d450654b4e9fe5c
   local-dir: dist/
   target-branch: gh-pages
   commit-message: "Deploy del Proyecto"
