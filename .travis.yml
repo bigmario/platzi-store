@@ -10,7 +10,9 @@ git:
 script:
   - yarn build
 notifications:
-  slack: laboratorioplatzi:hLwWi7KlucuNBjy7w11a8BmV
+  slack:
+    secure: "uszq9SiL8zR5dy1x0EJtAda1Yxt1RZPsMvsnsPvDrDf+7A0B/NMLA1gc/h0nfJ9oRUp0tcsNQ+BbGmT6SqOGTOs3tC4UC7bnhNZHg/7osKe+CIz1C3BD4YDbiYPepFCtdV176qqYblzUpF4LLDYHAe1Vl24q3yQY0E3IPNY9wzuxDRwHvSUPT0TjEwUAtv8zZY2pTq9rwD8PuJ9kJTx1beycJ9lnFr0RUXOCtD1+9I5bIlE4bu07Qqf0SPJEJ+vnZzCklAQuXL5KevvZT5dc+Ljkw1eGfpuYCL9X+kyS09lMgYv4KO1ublc4Oe6cGVW9YZtHrKzly9WT8fco9u25zu+hjUXfwIwE25U1lSXgYuaeUq7+t0Xmlg+hoAJmFMLkClVvd/ZUbca8otgwVLjj3mRSD+PbWX8tME0hPAIC3VI62ctYGReFz3Zo0N2dLPVz2xCV15CI2zpjSWwD2ZnpE0gVAXg9ndcu3XifLr50ak/uiU8g63zbexHY/RXzfLNKn427p86anYNxjcwwcm4R9inIi1zRURDRaLzYVqafS0lST1fdDNhg3dpehL1zmUDFv0quEu7lcKxBQL8OoL/UHmcVNCJwXwp4DBQ9smJf2hAR3ej9ON1bbUoVeuyzwl4Vd8vMq/lGUrKu75G+UbW7VJw9NC6ZjZiT/fmeLDmxwMk="
+  #slack: laboratorioplatzi:hLwWi7KlucuNBjy7w11a8BmV
   email:
     recipients:
       - mariocastro.pva@gmail.com
